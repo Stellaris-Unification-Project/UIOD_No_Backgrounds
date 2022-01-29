@@ -1,0 +1,14 @@
+spriteTypes = {
+	# empire_view, expansion_planner_view, galaxy_view, topbar_factions_view, topbar_leaders_view, topbar_species_view
+	corneredTileSpriteType = {
+		name = "GFX_ui_tile_large_bg_top"
+		textureFile = "gfx/ui_overhaul_qhd/ui_tile_large_bg_top.dds"
+		borderSize = { x = 330 y = 10 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_ui_plain_bg_tile"
+		textureFile = "gfx/ui_overhaul_qhd/ui_plain_bg_tile.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+}
